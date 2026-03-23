@@ -1,0 +1,35 @@
+# Challenge specification for ctfcli
+# https://github.com/CTFd/ctfcli
+
+name: "Linux"
+author: "author"
+category: system
+description: |
+  Monsieur Seguin suspecte qu'un programme malveillant a été installé sur son ordinateur Linux
+  Trouvez le programme malveillant et trouvez le flag (dans le code source du programme).
+value: 100
+type: standard
+
+image: null
+protocol: null
+host: null
+
+# Optional settings
+connection_info: null
+attempts: 0
+
+flags:
+    - "flag{EGG{42}}"
+
+tags:
+    - system
+    - linux
+
+files: [linux_v86.img.zip]
+
+hints:
+    - "Le programme se lance au démarrage de la machine en tant que service."
+    - "Le programme semble se faire passer pour un outil de mise à jour système."
+
+state: visible
+version: "0.1"

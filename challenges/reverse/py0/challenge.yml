@@ -1,0 +1,34 @@
+# Challenge specification for ctfcli
+# https://github.com/CTFd/ctfcli
+name: "py0"
+author: "author"
+category: "reverse"
+description: "Un code Python a été pris en capture d'écran. Ce code est utilisé pour vérifier si un flag est valide. Analysez le code pour trouver le flag."
+attribution: "Written by [author](https://ctfd.io)"
+value: 100
+type: standard
+
+image: null
+protocol: null
+host: null
+
+# Optional settings
+connection_info: null
+attempts: 0
+
+logic: any
+
+flags:
+  - "flag{EGG{42}}"
+
+tags:
+  - "reverse"
+  - "py0"
+
+files: [py0.png]
+
+hints:
+  - "Les différents charactères du flag ne sont pas forcément vérifié dans l'ordre"
+
+state: visible
+version: "0.1"

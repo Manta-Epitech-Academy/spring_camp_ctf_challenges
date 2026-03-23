@@ -1,0 +1,40 @@
+# Challenge specification for ctfcli
+# https://github.com/CTFd/ctfcli
+name: "ftp"
+author: "author"
+category: "network"
+description: |
+  Nous avons intercepté du trafic sur un réseau Wifi public.
+  Le suspect à utilisé un client FTP pour récupérer des fichiers sur un serveur.
+  Un de ces fichiers (secret.txt) contient le flag
+
+attribution: "Written by [author](https://ctfd.io)"
+value: 100
+type: standard
+
+image: null
+protocol: null
+host: null
+
+# Optional settings
+connection_info: null
+attempts: 0
+
+logic: any
+
+flags:
+  - "flag{EGG{42}}"
+
+tags:
+  - "network"
+  - "ftp"
+
+files: [capture.pcap]
+
+hints:
+  - "Utilisez un analyseur de trafic pour analyser le fichier pcap: PacketSafari, Wireshark, etc."
+  - "RETR est la commande utilisée pour récupérer un fichier sur un serveur FTP"
+  - "Le trafic est bruité, il faut filtrer les paquets pour ne garder que les paquets de FTP"
+
+state: visible
+version: "0.1"

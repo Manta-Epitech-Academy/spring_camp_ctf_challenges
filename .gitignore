@@ -1,0 +1,14 @@
+**/other/
+*img.zip
+.ctf
+bin
+done
+include
+lib
+lib64
+pages
+*.swp
+next_step.txt
+TODO.md
+pyenv.cfg
+*writeup.md

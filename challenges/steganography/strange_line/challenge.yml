@@ -1,0 +1,34 @@
+# Challenge specification for ctfcli
+# https://github.com/CTFd/ctfcli
+name: "strange_line"
+author: "author"
+category: "steganography"
+description: "Cette image est étrange, trouvez le message secret qui s'y cache"
+attribution: "Written by [author](https://ctfd.io)"
+value: 100
+type: standard
+
+image: null
+protocol: null
+host: null
+
+# Optional settings
+connection_info: null
+attempts: 0
+
+logic: any
+
+flags:
+  - "flag{TODO}"
+
+tags:
+  - "steganography"
+  - "strange_line"
+
+files: [output3.ppm]
+
+hints:
+  - "Analysez la ligne de pixels étranges"
+
+state: visible
+version: "0.1"

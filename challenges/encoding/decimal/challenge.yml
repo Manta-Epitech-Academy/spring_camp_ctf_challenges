@@ -1,0 +1,35 @@
+# Challenge specification for ctfcli
+# https://github.com/CTFd/ctfcli
+name: "base32"
+author: "author"
+category: "encoding"
+description: "Décodez le message suivant, ce message a été codé en décimal"
+attribution: "Written by [author](https://ctfd.io)"
+value: 100
+type: standard
+
+image: null
+protocol: null
+host: null
+
+# Optional settings
+connection_info: null
+attempts: 0
+
+logic: any
+
+flags:
+  - "flag{TODO}"
+
+tags:
+  - "encoding"
+  - "base10"
+
+files: [challenge.txt]
+
+hints:
+  - "Nous utilisons au quotidien la base 10 (décimale): 10 symboles différents pour représenter n'importe quel nombre: 0,1,2,3,4,5,6,7, 8, 9"
+  - "D'autres base peuvent être utilisées en informatique: base 2 (binaire): 0,1; base 16 (hexadécimale): 0,1,2,3,4,5,6,7,8,9,0,A,B,C,D,E,F; etc."
+
+state: visible
+version: "0.1"

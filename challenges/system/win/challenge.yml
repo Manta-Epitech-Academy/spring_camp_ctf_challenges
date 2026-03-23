@@ -1,0 +1,35 @@
+# Challenge specification for ctfcli
+# https://github.com/CTFd/ctfcli
+
+name: "Windows"
+author: "author"
+category: system
+description: |
+  Madame Michou suspecte qu'un programme malveillant a été installé sur son ordinateur Windows 2000
+  Trouvez le programme malveillant et trouvez le flag (dans le code source du programme).
+value: 100
+type: standard
+
+image: null
+protocol: null
+host: null
+
+# Optional settings
+connection_info: null
+attempts: 0
+
+flags:
+    - "flag{EGG{42}}"
+
+tags:
+    - system
+    - windows
+
+files: [win2000_v86.img.zip]
+
+hints:
+    - "Le programme malveillant se lance au démarrage de la machine en tant que service."
+    - "Le programme malveillant semble être développé en VBScript."
+
+state: visible
+version: "0.1"

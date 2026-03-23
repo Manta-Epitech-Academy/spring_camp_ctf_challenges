@@ -1,0 +1,38 @@
+# Challenge specification for ctfcli
+# https://github.com/CTFd/ctfcli
+name: "unknown_file"
+author: "author"
+category: "forensics"
+description: "Un fichier inconnnu a été trouvé sur un serveur. C'est certainement un fichier important contenant un flag."
+attribution: "Written by [author](https://ctfd.io)"
+value: 100
+type: standard
+
+image: null
+protocol: null
+host: null
+
+# Optional settings
+connection_info: null
+attempts: 0
+
+logic: any
+
+flags:
+  - "flag{EGG{42}}"
+
+tags:
+  - "forensics"
+  - "unknown_file"
+
+files: []
+
+hints:
+  - "Les types de fichiers n'est pas forcément lié à son extension"
+  - "Essayez de trouver le type de fichier en utilisant les méthodes de détection de fichiers"
+  - "La majorité des fichiers binaires comportent une 'entête': quelques octets au début du fichier qui déterminent son type"
+
+
+
+state: visible
+version: "0.1"

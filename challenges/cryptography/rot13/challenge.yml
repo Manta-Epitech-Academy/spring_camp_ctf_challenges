@@ -1,0 +1,34 @@
+# Challenge specification for ctfcli
+# https://github.com/CTFd/ctfcli
+name: "rot13"
+author: "author"
+category: "cryptography"
+description: "Déchiffrez le message suivant en utilisant ROT13"
+attribution: "Written by [author](https://ctfd.io)"
+value: 100
+type: standard
+
+image: null
+protocol: null
+host: null
+
+# Optional settings
+connection_info: null
+attempts: 0
+
+logic: any
+
+flags:
+  - "flag{TODO}"
+
+tags:
+  - "cryptography"
+  - "rot13"
+
+files: [challenge.txt]
+
+hints:
+  - "ROT13 correspond à un chiffrement de César avec un décalage de 13"
+
+state: visible
+version: "0.1"
