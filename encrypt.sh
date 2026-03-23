@@ -8,7 +8,7 @@ if [[ -z "${GPG_PASSPHRASE:-}" ]]; then
   echo
 fi
 
-find "$REPO_ROOT" \( -path "$REPO_ROOT/.git" -o -path "$REPO_ROOT/.git/*" \) -prune -o -type f -name "writeup.md" -print0 |
+find "$REPO_ROOT" \( -path "$REPO_ROOT/.git" -o -path "$REPO_ROOT/.git/*" \) -prune -o -type f \( -name "writeup.md" -o -name "summary.md" \) -print0 |
   while IFS= read -r -d '' f; do
     gpg --batch --yes --symmetric --cipher-algo AES256 \
       --pinentry-mode loopback --passphrase "$GPG_PASSPHRASE" \
