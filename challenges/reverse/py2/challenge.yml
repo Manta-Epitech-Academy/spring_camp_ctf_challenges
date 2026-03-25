@@ -26,8 +26,7 @@ tags:
   - "py2"
 
 files:
-  - main.py
-  - Makefile
+  - main.cpython-312.pyc
 
 hints:
   - "Le format .pyc est un bytecode (binaire) Python. Vous pouvez chercher un outil pour convertir le bytecode en code source Python lisible."
