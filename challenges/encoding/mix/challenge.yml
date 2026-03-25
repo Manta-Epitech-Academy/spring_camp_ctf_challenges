@@ -1,6 +1,6 @@
 # Challenge specification for ctfcli
 # https://github.com/CTFd/ctfcli
-name: "base32"
+name: "mixed"
 author: "author"
 category: "encoding"
 description: "Décodez le message suivant, ce message a été codé en Base64"
