@@ -1,6 +1,6 @@
 # Challenge specification for ctfcli
 # https://github.com/CTFd/ctfcli
-name: "unknown_file"
+name: "camouflage"
 author: "author"
 category: "forensics"
 description: "Un fichier inconnnu a été trouvé sur un serveur. C'est certainement un fichier important contenant un flag."
