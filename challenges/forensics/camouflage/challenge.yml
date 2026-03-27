@@ -22,7 +22,7 @@ tags:
   - "forensics"
   - "camouflage"
 
-files: []
+files: [document.docx]
 
 hints:
   - "Les types de fichiers n'est pas forcément lié à son extension"
