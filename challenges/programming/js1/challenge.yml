@@ -22,9 +22,6 @@ attempts: 0
 
 logic: any
 
-flags:
-  - "flag{TODO}"
-
 tags:
   - "programming"
   - "js"

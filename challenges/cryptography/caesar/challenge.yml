@@ -18,9 +18,6 @@ attempts: 0
 
 logic: any
 
-flags:
-  - "flag{EGG{oljxkzovmql}}"
-
 tags:
   - "cryptography"
   - "caesar"

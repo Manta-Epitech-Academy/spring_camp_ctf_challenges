@@ -7,6 +7,12 @@ category: system
 description: |
   Madame Michou suspecte qu'un programme malveillant a été installé sur son ordinateur Windows 2000
   Trouvez le programme malveillant et trouvez le flag (dans le code source du programme).
+  ---
+  - Téléchargez le fichier **windows2000_x86.img.zip**
+  - Décompressez l'archive ZIP
+  - Rendez vous sur [https://lab.epitech.academy/v86_simple/](https://lab.epitech.academy/v86_simple/)
+  - Dans **Image de disque dur** choissisez le fichier **windows2000_x86.img** (contenu dans **windows2000_x86.img.zip**)
+  - Cliquez sur **Lancer** et attendez que la machine démarre (quelques secondes à quelques minutes en fonction des performances de votre machine).
 value: 100
 type: standard
 
@@ -17,9 +23,6 @@ host: null
 # Optional settings
 connection_info: null
 attempts: 0
-
-flags:
-    - "flag{EGG{42}}"
 
 tags:
     - system

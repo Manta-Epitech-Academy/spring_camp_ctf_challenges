@@ -26,9 +26,6 @@ attempts: 0
 
 logic: any
 
-flags:
-  - "flag{EGG{19U17}}"
-
 tags:
   - "programming"
   - "filters"
