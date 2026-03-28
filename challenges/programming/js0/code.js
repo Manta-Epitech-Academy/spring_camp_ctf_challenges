@@ -1,4 +1,4 @@
-const target = [107, 102, 100, 98, 126, 50, 51];
+const target =  [126, 100, 96, 125, 97, 104, 127, 104, 123, 104, 127, 126, 104];
 
 function unlock(input) {
     if (input.length !== target.length) return false;
