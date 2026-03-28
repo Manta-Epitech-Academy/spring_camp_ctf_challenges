@@ -3,9 +3,11 @@
 name: "signature"
 author: "author"
 category: "cryptography"
-description: "Vous avez reçu plusieurs messages de votre commandant.\n
-Vous suspectez un intrus dans votre équipe qui se fait passer pour votre commandant.\n
-Le flag est la liste des numéros des messages qui sont authentiques, triés par ordre croissant, séparé par des ','. Exemple : flag{2,5,7,8} "
+description: |
+  Vous avez reçu plusieurs messages de votre commandant.\n
+  Vous suspectez un intrus dans votre équipe qui se fait passer pour votre commandant.\n
+  Le flag est la concatenation dans l'ordre croissant des identifiants (1 chiffre suivit de 3 lettres) des messages qui proviennent réellement de votre commandant.\n
+  Par exemple: si les messages authentiques ont les identifiants suivant: '2csw', '7vhw' et '7dmm'. Le flag sera: '2csw7dmm7vhw'
 attribution: "Written by [author](https://ctfd.io)"
 value: 100
 type: standard
@@ -25,11 +27,11 @@ tags:
   - "signature"
 
 files:
-  - pub_commandant
+  - commandant.pub
   - messages_commandement.zip
 
 hints:
   - "Les messages sont signés avec une clé RSA. La clé publique de votre commandant est fournie."
 
-state: hidden
+state: visible
 version: "0.1"
